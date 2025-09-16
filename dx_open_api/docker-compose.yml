@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  dx_open_api:
+    build: 
+      context: ./
+      dockerfile: dx_open_api
+    ports:
+      - "10003:10003"
+    container_name: dx_open_api
+    image: dx_open_api
+    networks:
+      - dx_open_api
+
+networks:
+  dx_open_api:
+    driver: bridge
+
+volumes:
+  dx_open_api:

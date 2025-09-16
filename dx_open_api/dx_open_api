@@ -1,0 +1,24 @@
+# 使用官方 Python 运行时作为父镜像
+# FROM python:3.10.12
+FROM 47.86.44.43:8042/oms_server/duixian_plan:latest
+ENV PYTHONUNBUFFERED 1
+# 设置工作目录
+WORKDIR /usr/src/app
+
+# 将当前目录内容复制到容器中的工作目录
+COPY . .
+
+# 设置时区
+ENV TZ=Asia/Shanghai
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+
+# 如果是国内服务器 指定下pip路径
+RUN pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/
+
+# 安装 requirements.txt 中指定的任何所需包
+# RUN pip install --upgrade pip
+# RUN pip install --no-cache-dir -r requirements.txt
+
+# 运行应用程序
+WORKDIR /usr/src/app/OpenApi
+CMD python -u manage.py runserver 0.0.0.0:10003

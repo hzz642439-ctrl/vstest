@@ -1,0 +1,190 @@
+{
+  "40000": {
+    "zh": "操作成功！",
+    "en": "operate successfully!"
+  },
+  "40001": {
+    "zh": "未获取到!",
+    "en": "Not found!"
+  },
+  "40002": {
+    "zh": "参数错误!",
+    "en": "parameter error!"
+  },
+  "40003": {
+    "zh": "缺少参数：%s!",
+    "en": "missing parameter: %s!"
+  },
+  "40004": {
+    "zh": "失败!未找到对应会员账号!",
+    "en": "fail! The corresponding member account is not found!"
+  },
+  "40005": {
+    "zh": "盘口匹配失败!%s平台，%s，%s！",
+    "en": "Failed to match the odds tray!%s platform，%s，%s!"
+  },
+  "40006": {
+    "zh": "失败!实时赔率获取失败!",
+    "en": "fail! Failed to get the latest odds!"
+  },
+  "40007": {
+    "zh": "暂未分配账号权限，请联系上级管理员!",
+    "en": "Account rights have not been assigned. Contact the upper-level administrator!"
+  },
+  "40008": {
+    "zh": "比赛详情获取失败!",
+    "en": "Failed to obtain contest details!"
+  },
+  "40009": {
+    "zh": "该方案关联过滤器已被删除!",
+    "en": "The scheme association filter has been removed!"
+  },
+  "40010": {
+    "zh": "失败!已存在该组织!",
+    "en": "fail! The organization already exists!"
+  },
+  "40011": {
+    "zh": "失败!%s",
+    "en": "fail! %s"
+  },
+  "40012": {
+    "zh": "失败!未查询到对应组织或者该组织没有权限!",
+    "en": "fail! The corresponding organization is not queried or the organization has no permission!"
+  },
+  "40013": {
+    "zh": "失败!已存在该工作室!",
+    "en": "fail! The studio already exists!"
+  },
+  "40014": {
+    "zh": "失败!未查询到所在组织或者所在组织没有权限!",
+    "en": "fail! The organization is not queried or the organization has no permission!"
+  },
+  "40015": {
+    "zh": "失败!未查询到对应的授权会员!",
+    "en": "fail! The corresponding authorized member is not found!"
+  },
+  "40016": {
+    "zh": "失败!会员账号已存在!",
+    "en": "fail! The member account already exists!"
+  },
+  "40017": {
+    "zh": "失败!未找到对应ip，操作失败!请先创建ip!",
+    "en": "fail! The corresponding proxy ip is not found, the operation failed! Create an ip address first!"
+  },
+  "40018": {
+    "zh": "失败!未找到对应分组，操作失败!请先创建分组!",
+    "en": "fail! The corresponding group is not found, the operation failed! Create a group first!"
+  },
+  "40019": {
+    "zh": "失败!未找到对应来源，操作失败!请先创建来源!",
+    "en": "fail! The corresponding source is not found, the operation failed! Create a source first!"
+  },
+  "40020": {
+    "zh": "失败!未找到对应货币，操作失败!",
+    "en": "fail! The corresponding currency is not found, the operation failed!"
+  },
+  "40021": {
+    "zh": "失败!IP已经被使用，操作失败!",
+    "en": "fail! The proxy ip is already in use, cannot create a member!"
+  },
+  "40022": {
+    "zh": "失败!用户初始化失败！请联系管理员!",
+    "en": "fail! User initialization failed! Please contact the administrator!"
+  },
+  "40023": {
+    "zh": "失败!用户登录失败！密码错误或者代理ip不可用!",
+    "en": "fail! User login failed! The password is incorrect or the proxy ip address is unavailable!"
+  },
+  "40024": {
+    "zh": "操作失败!",
+    "en": "operation failure!"
+  },
+  "40025": {
+    "zh": "失败!不能读取其他用户信息!",
+    "en": "fail! annot read other user information!"
+  },
+  "40026": {
+    "zh": "失败!该分组未分配会员账号!",
+    "en": "fail! No member account has been assigned to this group!"
+  },
+  "40027": {
+    "zh": "失败!该工作组无符合该场比赛盘口条件的会员账号!",
+    "en": "fail! The working group does not have a member account that meets the requirements for the game!"
+  },
+  "40028": {
+    "zh": "任务已经完成！",
+    "en": "Mission accomplished!"
+  },
+  "40029": {
+    "zh": "任务已经取消！",
+    "en": "The mission has been canceled!"
+  },
+  "40030": {
+    "zh": "失败！未查询到该比赛，请检查比赛是否结束！",
+    "en": "fail! The match is not found. Please check whether the match is over!"
+  },
+  "40031": {
+    "zh": "失败！'%s' 参数错误！",
+    "en": "fail! '%s' parameter error!"
+  },
+  "40032": {
+    "zh": "失败！下单失败的订单无法获取订单截图！",
+    "en": "fail! Order screenshots cannot be obtained for failed orders!"
+  },
+  "40033": {
+    "zh": "失败！未查询到用户，请检查用户是否激活!！",
+    "en": "fail! No user is found, please check whether the user is active!"
+  },
+  "40034": {
+    "zh": "失败!未找到对应方案，操作失败!请先创建方案!",
+    "en": "fail! No solution found, operation failed! Please create the scheme first!"
+  },
+  "40035": {
+    "zh": "失败!未找到对应过滤器，操作失败!请先创建过滤器!",
+    "en": "fail! No filter found, operation failed! Please create the filter first!"
+  },
+  "40036": {
+    "zh": "失败!该方案关联过滤器已被删除!",
+    "en": "fail! The scheme association filter has been removed!"
+  },
+  "40037": {
+    "zh": "用户还未配置，需要先配置!",
+    "en": "The user has not been configured and needs to be configured first!"
+  },
+  "40038": {
+    "zh": "当前比赛可能已经结束，查询失败!",
+    "en": "The current contest may have ended and the query failed!"
+  },
+  "40039": {
+    "zh": "暂未分配账号权限，请联系上级管理员!",
+    "en": "Account rights have not been assigned. Contact the upper-level administrator!"
+  },
+  "40040": {
+    "zh": "该工作组未授权!",
+    "en": "The working group is not authorized!"
+  },
+  "40041": {
+    "zh": "用户还未进行账号配置，无法下单！",
+    "en": "The user has not configured the account, can not place an order!"
+  },
+  "40042": {
+    "zh": "该工作组无会员账号！",
+    "en": "This working group has no member account!"
+  },
+  "40043": {
+    "zh": "该工作组无下单平台会员账号！",
+    "en": "The working group does not have an order platform member account!"
+  },
+  "40044": {
+    "zh": "请输入正确的订单状态！",
+    "en": "Please enter the correct order status!"
+  },
+  "40045": {
+    "zh": "失败!ip已存在!",
+    "en": "fail! The proxy ip address already exists!"
+  },
+  "40046": {
+    "zh": "失败!未找到对应登录规则，操作失败!请先创建登录规则!",
+    "en": "fail! The corresponding login rule is not found, the operation failed! Create a login rule first!"
+  }
+}
