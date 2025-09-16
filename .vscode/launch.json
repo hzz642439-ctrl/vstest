@@ -1,0 +1,27 @@
+{
+    "configurations": [
+
+
+
+
+
+        {
+            "name": "Python Debugger: Python File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "cwd": "${workspaceFolder}/.." 
+        },
+        {
+            "name": "Django: Runserver",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/dx_open_api/OpenApi/manage.py",
+            "args": [
+                "runserver",
+                "192.168.2.246:8000"
+            ],
+            "django": true
+        }
+    ]
+}
